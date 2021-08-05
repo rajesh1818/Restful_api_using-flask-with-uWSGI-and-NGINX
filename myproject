@@ -1,3 +1,6 @@
+###sudo vi /etc/systemd/system/myproject.service  at this location create file .service and do the configuration
+
+
 server {
     listen 80;
     server_name 192.168.0.114;
@@ -7,3 +10,7 @@ server {
         uwsgi_pass unix:/home/rajesh/PycharmProjects/myproject/myproject.sock;
     }
 }
+
+
+
+
